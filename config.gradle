@@ -5,8 +5,8 @@ ext {
             minSdkVersion    : 15,
             targetSdkVersion : 28,
             applicationId    : "com.luffy.generalrouterapi",
-            versionCode      : 106,
-            versionName      : "1.0.6"
+            versionCode      : 101,
+            versionName      : "1.0.1"
     ]
 
     dependVersion = [
@@ -21,6 +21,6 @@ ext {
     ]
 
     generalRouter = [
-            routerCompiler: "com.github.Lvluffy:GeneralRouterCompiler:${dependVersion.generalRouterCompiler}"
+            routerCompiler: "com.github.gititcp:GeneralRouterCompiler:${dependVersion.generalRouterCompiler}"
     ]
 }
